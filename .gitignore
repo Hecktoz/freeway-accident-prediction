@@ -1,0 +1,52 @@
+# Data artifacts and private research data
+/data/
+
+# Generated outputs
+/output/
+/.tmp/
+
+# Legacy archive, not part of the active codebase
+/legacy/
+
+# Local agent/editor state
+/.claude/
+/.codex/
+/.vscode/
+/.idea/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+.venv/
+venv/
+.ruff_cache/
+.pytest_cache/
+.mypy_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Local scratch files seen in the project root
+_tmp*.py
+font_*.txt
+cells_*.txt
+ff_cells.txt
+matrix_cells.txt
+*_tmp.txt
+
+# Large local binary references
+*.ttf
+*.otf
+TRR2013_2ndarycrash.pdf
+JTEMiningSecondaryCrashes.pdf
+
+# Build artifacts
+build/
+dist/
